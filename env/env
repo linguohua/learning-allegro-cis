@@ -1,0 +1,66 @@
+source $TELENV
+
+### Center display at cursor location 
+funckey z "zoom center; pick -cursor" 
+### Adding Vias: Use of Space Bar
+funckey " " "pop bbdrill -cursor" 
+### Add Connect: Add a vertex using a Funckey key
+funckey x "pick_to_grid -cursor" 
+funckey + subclass -+
+funckey - subclass --
+funckey b altsubclass -+
+funckey 1 options subclass TOP
+funckey 2 options subclass SIGNAL_2
+funckey 3 options subclass SIGNAL_3
+funckey 4 options subclass SIGNAL_4
+funckey 5 options subclass SIGNAL_5
+funckey 6 options subclass SIGNAL_6
+funckey 7 options subclass SIGNAL_7
+funckey 8 options subclass BOTTOM
+funckey d "prepopup; pop dyn_option_select @:@Delete" 
+funckey r iangle 90 
+funckey m "pop mirror"
+funckey a "settoggle CMD 'generaledit' 'placementedit' 'etchedit';$CMD" 
+
+### User Preferences section
+### This section is computer generated.
+### Please do not modify to the end of the file.
+### Place your hand edits above this section.
+###
+unset static_shapes_fill_solid
+set viewer_useoglgraphics
+set noconfirm_savedb
+set display_drcfill
+set display_etch_over_pad
+unset pcb_cursor
+unset display_mask_pads
+set showmeasure_altunits = mils
+unset display_nohilitefont
+unset autosave
+unset no_etch_shape_display
+unset no_shape_fill
+set allegro_new_units = millimeters
+set cdnsip_new_accuracy = 4
+set allegro_new_accuracy = 4
+set new_units = millimeters
+set apd_new_units = millimeters
+set new_accuracy = 4
+set padstack_editor_new_units = millimeters
+set apd_new_accuracy = 4
+set padstack_editor_new_accuracy = 4
+set cdnsip_new_units = millimeters
+unset padstack_hole_outside
+unset padstack_nowarning_drill
+unset padstack_nowarning_display
+unset gloss_pad_shape
+unset symed_rdl_on_pad_layer
+set align_guides_place_bound
+set align_guides
+unset symed_refresh_padstacks
+set step_mapping_path = $step_mapping_path
+set padpath = $padpath C:/learning-allegro-cis/pads/
+set psmpath = $psmpath C:/learning-allegro-cis/sym/
+set steppath = $steppath C:/learning-allegro-cis/step/
+set etchedit_ignore_dynamic_shapes
+set acon_disable_nullnet_route
+unset sipiop_no_padstack_reuse
