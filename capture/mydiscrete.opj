@@ -14,8 +14,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\mydiscrete.olb")
-      (Select "Design Resources" ".\mydiscrete.olb" "stm32f412vg"))
+      (Path "Design Resources" "c:\learning-allegro-cis\capture\mydiscrete.olb")
+      (Select "Design Resources"
+         "c:\learning-allegro-cis\capture\mydiscrete.olb" "Button4N"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
