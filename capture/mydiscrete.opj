@@ -22,12 +22,5 @@
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 904"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1406 100 684"))
-      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
-      (Package "NRF52840-QIAA-R7")
-      (PartType "1")))
+      (Tab 0)))
   (MPSSessionName "Happy"))
