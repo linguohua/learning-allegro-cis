@@ -16,11 +16,25 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\learning-allegro-cis\capture\mydiscrete.olb")
       (Select "Design Resources"
-         "C:\learning-allegro-cis\capture\mydiscrete.olb"))
+         "C:\learning-allegro-cis\capture\mydiscrete.olb" "CRYSTAL13-NDK/SM"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 904"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 1352 75 663"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "CRYSTAL13-NDK/SM")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1327 50 638"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "NRF52840-QIAA-R7")
+      (PartType "1")))
   (MPSSessionName "Happy"))
