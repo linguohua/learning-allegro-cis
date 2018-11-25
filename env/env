@@ -21,7 +21,8 @@ funckey d "prepopup; pop dyn_option_select @:@Delete"
 funckey r iangle 90 
 funckey m "pop mirror"
 funckey a "settoggle CMD 'generaledit' 'placementedit' 'etchedit';$CMD" 
-
+alias F2 move
+alias Home zoom fit
 ### User Preferences section
 ### This section is computer generated.
 ### Please do not modify to the end of the file.
@@ -35,10 +36,11 @@ set display_etch_over_pad
 unset pcb_cursor
 unset display_mask_pads
 set showmeasure_altunits = mils
+unset no_dynamic_ratsnest
 unset display_nohilitefont
 unset autosave
-unset no_etch_shape_display
-unset no_shape_fill
+set no_etch_shape_display
+set no_shape_fill
 set allegro_new_units = millimeters
 set cdnsip_new_accuracy = 4
 set allegro_new_accuracy = 4
