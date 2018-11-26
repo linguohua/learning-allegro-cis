@@ -14,7 +14,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\learning-allegro-cis\capture\mydiscrete.olb"))
+      (Path "Design Resources" "c:\learning-allegro-cis\capture\mydiscrete.olb")
+      (Select "Design Resources"
+         "c:\learning-allegro-cis\capture\mydiscrete.olb" "SMA-KE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
