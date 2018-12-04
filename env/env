@@ -21,7 +21,7 @@ funckey d "prepopup; pop dyn_option_select @:@Delete"
 funckey r iangle 90 
 funckey m "pop mirror"
 funckey a "settoggle CMD 'generaledit' 'placementedit' 'etchedit';$CMD" 
-funckey ss "settoggle no_etch_shape_display; redraw"
+funckey ss "settoggle no_etch_shape_display; settoggle no_shape_fill; redraw"
 alias F2 move
 alias Home zoom fit
 ### User Preferences section
@@ -42,7 +42,7 @@ unset no_dynamic_ratsnest
 unset display_refdes_rats
 unset display_nohilitefont
 unset autosave
-set no_etch_shape_display
+unset no_etch_shape_display
 unset no_shape_fill
 set allegro_new_units = millimeters
 set cdnsip_new_accuracy = 4
