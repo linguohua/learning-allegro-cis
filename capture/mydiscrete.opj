@@ -14,7 +14,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\mydiscrete.olb"))
+      (Path "Design Resources" ".\mydiscrete.olb")
+      (Select "Design Resources" ".\mydiscrete.olb" "TPS62175DQCR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -24,8 +25,15 @@
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1187 175 759"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 1339 0 584"))
       (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
       (Package "MAX30102")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1132 44 628"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "TPS62175DQCR")
       (PartType "1")))
   (MPSSessionName "Happy"))
