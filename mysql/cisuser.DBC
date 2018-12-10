@@ -1087,7 +1087,7 @@
     </DbFieldDef>
     <DbFieldDef indx="1">
       <FieldName></FieldName>
-      <DBFieldName>Part type</DBFieldName>
+      <DBFieldName>Part Type</DBFieldName>
       <ICAFieldName></ICAFieldName>
       <DBFieldType>12</DBFieldType>
       <DBFieldPrecision>255</DBFieldPrecision>
