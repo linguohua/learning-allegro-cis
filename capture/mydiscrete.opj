@@ -16,7 +16,7 @@
       (Path "Design Resources")
       (Path "Design Resources" "c:\learning-allegro-cis\capture\mydiscrete.olb")
       (Select "Design Resources"
-         "c:\learning-allegro-cis\capture\mydiscrete.olb" "PNP"))
+         "c:\learning-allegro-cis\capture\mydiscrete.olb" "RT9013"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
