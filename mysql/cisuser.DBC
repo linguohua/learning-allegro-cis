@@ -1488,6 +1488,42 @@
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
     <DbFieldDef indx="5">
+      <FieldName>Rdc(max)</FieldName>
+      <DBFieldName>Rdc(max)</DBFieldName>
+      <ICAFieldName></ICAFieldName>
+      <DBFieldType>12</DBFieldType>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>2040</DBFieldLength>
+      <DBFieldScale>32484</DBFieldScale>
+      <DBFieldRadix>32484</DBFieldRadix>
+      <DBFieldNullable>0</DBFieldNullable>
+      <Browse>0</Browse>
+      <Protected>0</Protected>
+      <Key>0</Key>
+      <Ignore>0</Ignore>
+      <Visibility>0</Visibility>
+      <PropertyType>0</PropertyType>
+      <UpdatePartProp>1</UpdatePartProp>
+    </DbFieldDef>
+    <DbFieldDef indx="6">
+      <FieldName>SRF(min)</FieldName>
+      <DBFieldName>SRF(min)</DBFieldName>
+      <ICAFieldName></ICAFieldName>
+      <DBFieldType>12</DBFieldType>
+      <DBFieldPrecision>255</DBFieldPrecision>
+      <DBFieldLength>2040</DBFieldLength>
+      <DBFieldScale>32484</DBFieldScale>
+      <DBFieldRadix>32484</DBFieldRadix>
+      <DBFieldNullable>0</DBFieldNullable>
+      <Browse>0</Browse>
+      <Protected>0</Protected>
+      <Key>0</Key>
+      <Ignore>0</Ignore>
+      <Visibility>0</Visibility>
+      <PropertyType>0</PropertyType>
+      <UpdatePartProp>1</UpdatePartProp>
+    </DbFieldDef>	
+    <DbFieldDef indx="7">
       <FieldName>Tolerance</FieldName>
       <DBFieldName>Tolerance</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1505,7 +1541,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="6">
+    <DbFieldDef indx="8">
       <FieldName></FieldName>
       <DBFieldName>Schematic Part</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1523,7 +1559,7 @@
       <PropertyType>3</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="7">
+    <DbFieldDef indx="9">
       <FieldName></FieldName>
       <DBFieldName>Layout PCB Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1541,7 +1577,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="8">
+    <DbFieldDef indx="10">
       <FieldName>PCB Footprint</FieldName>
       <DBFieldName>Allegro PCB Footprint</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1559,7 +1595,7 @@
       <PropertyType>4</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="9">
+    <DbFieldDef indx="11">
       <FieldName>Implementation</FieldName>
       <DBFieldName>PSpice</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1577,7 +1613,7 @@
       <PropertyType>5</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="10">
+    <DbFieldDef indx="12">
       <FieldName></FieldName>
       <DBFieldName>Manufacturer Part Number</DBFieldName>
       <ICAFieldName>Mfr Part Number</ICAFieldName>
@@ -1595,7 +1631,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="11">
+    <DbFieldDef indx="13">
       <FieldName></FieldName>
       <DBFieldName>Manufacturer</DBFieldName>
       <ICAFieldName>Mfr</ICAFieldName>
@@ -1613,7 +1649,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="12">
+    <DbFieldDef indx="14">
       <FieldName></FieldName>
       <DBFieldName>Distributor Part Number</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1631,7 +1667,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="13">
+    <DbFieldDef indx="15">
       <FieldName></FieldName>
       <DBFieldName>Distributor</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1649,7 +1685,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="14">
+    <DbFieldDef indx="16">
       <FieldName></FieldName>
       <DBFieldName>Price</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1667,7 +1703,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="15">
+    <DbFieldDef indx="17">
       <FieldName></FieldName>
       <DBFieldName>Availability</DBFieldName>
       <ICAFieldName></ICAFieldName>
@@ -1685,7 +1721,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="16">
+    <DbFieldDef indx="18">
       <FieldName></FieldName>
       <DBFieldName>Datasheet</DBFieldName>
       <ICAFieldName>Datasheet</ICAFieldName>
@@ -1703,7 +1739,7 @@
       <PropertyType>0</PropertyType>
       <UpdatePartProp>1</UpdatePartProp>
     </DbFieldDef>
-    <DbFieldDef indx="17">
+    <DbFieldDef indx="19">
       <FieldName></FieldName>
       <DBFieldName>ActivepartsID</DBFieldName>
       <ICAFieldName></ICAFieldName>
