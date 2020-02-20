@@ -15,15 +15,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\mydiscrete.olb")
-      (Select "Design Resources" ".\mydiscrete.olb"))
+      (Path "Design Resources" "C:\learning-allegro-cis\capture\mydiscrete.olb")
+      (Select "Design Resources"
+         "C:\learning-allegro-cis\capture\mydiscrete.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 304 0 904"))
       (Tab 0)))
-  (MPSSessionName "Happy")
+  (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
