@@ -17,13 +17,20 @@
       (Path "Design Resources")
       (Path "Design Resources" "C:\learning-allegro-cis\capture\mydiscrete.olb")
       (Select "Design Resources"
-         "C:\learning-allegro-cis\capture\mydiscrete.olb"))
+         "C:\learning-allegro-cis\capture\mydiscrete.olb" "AT3216-Antenna"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 304 0 904"))
-      (Tab 0)))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 904"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 5 1674 28 926"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "AT3216-ANTENNA")
+      (PartType "1")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
