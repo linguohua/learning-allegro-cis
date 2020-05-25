@@ -21,9 +21,23 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 245 0 880"))
-      (Tab 0)))
-  (MPSSessionName "Happy")
+        (Placement "44 0 1 -1 -1 -1 -1 0 261 0 519"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 973 28 565"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "2N7002DW")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 973 28 565"))
+      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
+      (Package "8205S")
+      (PartType "1")))
+  (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
