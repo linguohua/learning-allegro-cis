@@ -21,21 +21,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 261 0 519"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 257 0 663"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 973 28 565"))
+        (Placement "44 0 1 -1 -1 -8 -31 5 1233 28 709"))
       (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
-      (Package "2N7002DW")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 973 28 565"))
-      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
-      (Package "8205S")
+      (Package "EC3028A")
       (PartType "1")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
