@@ -21,15 +21,8 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 257 0 663"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 5 1233 28 709"))
-      (Path "C:\LEARNING-ALLEGRO-CIS\CAPTURE\MYDISCRETE.OLB")
-      (Package "EC3028A")
-      (PartType "1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 663"))
+      (Tab 0)))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
