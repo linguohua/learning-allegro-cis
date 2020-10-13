@@ -15,14 +15,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\learning-allegro-cis\capture\mydiscrete.olb")
-      (Select "Design Resources"
-         "c:\learning-allegro-cis\capture\mydiscrete.olb"))
+      (Path "Design Resources" ".\mydiscrete.olb")
+      (Select "Design Resources" ".\mydiscrete.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 258 0 663"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 311 0 663"))
       (Tab 0)))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false")
